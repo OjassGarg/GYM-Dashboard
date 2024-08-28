@@ -1,0 +1,38 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style/contact.css">
+    <title>CONTACT US</title>
+</head>
+<body>
+    <script>
+         function doGetOtp() {
+            var otp = prompt("Enter OTP:"); 
+            if (otp == "786")
+                alert("WE WILL REACH YOU SOON");
+            else
+                alert("Invalid");
+
+        }
+    </script>
+    <h1>
+       <center>
+        CONTACT US
+       </center> 
+    </h1>
+    <div class="container">
+        <label for="name"> Name</label>
+        <input type="text" id="name"  placeholder="Your name">
+      
+        <label for="mob">Mobile No</label>
+        <input type="text" id="mob"  placeholder=" Your mobile no">
+
+        <label for="subject">Subject</label>
+        <textarea id="text" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+        <input type="submit" value="Submit" onclick="doGetOtp(); ">
+    </div> 
+</body>
+</html>
+
+      
+        
+    
